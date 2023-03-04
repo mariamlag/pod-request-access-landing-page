@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;400&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+<body>
+  <div class="background">
+  
+  </div>
+  <div class="logo">
+    <img src="assets/desktop/logo.svg" alt="">
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="title">
+        Publish your podcasts <p>everywhere. </p>
+      </div>
+      <div class="text">
+        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+        Apple Podcasts, Google Podcasts, Pocket Casts and more!
+      </div>
+      <div class="icons">
+        <img class="spotify" src="assets/desktop/spotify.svg" alt="">
+        <img class="apple-product" src="assets/desktop/apple-podcast.svg" alt="">
+        <img class="podcasts" src="assets/desktop/google-podcasts.svg" alt="">
+        <img class="casts" src="assets/desktop/pocket-casts.svg" alt="">
+      </div>
+      <div class="email-valid-div">
+        <form  class="email-row" action="">
+          <div class="email-valid-form">
+            <div class="errorr">
+              <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="Email address" required>
+              <div class="error" id="error">
+                Oops! Please check your email
+              </div>
+            </div>
+              
+            <button id="button" type="button">Request access </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="email.js"></script>
+</body>
+</html>
